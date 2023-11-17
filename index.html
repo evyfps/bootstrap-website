@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR SECTION -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
+        <div class="container">
+            <a class="navbar-brand text-light text-decoration-none fw-bold" href="index.html">BORO SAVINOVIC</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+            <div class="navbar-collapse collapse show m-2" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light text-decoration-none fw-bold" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-decoration-none fw-bold" href="#about-section">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-decoration-none fw-bold" href="#contact">CONTACT</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER SECTION -->
+
+    <section class="container-fluid green-background-color text-center text-light pt-5">
+        <div>
+            <div>
+                <img src="img/avataaars.svg" class="avatar">
+            </div>
+
+            <div>
+                <h1>BORO SAVINOVIC</h1>
+            </div>
+
+            <div class="line">
+                <div class="star">&#9733;</div>
+            </div>
+
+            <div class="pt-3 fw-bold">
+                <p>Frontend Developer - Web Designer - Scrum Master</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <section>
+        <div class="text-center text-secondary pt-5">
+            <div>
+                <h2>PORTFOLIO</h2>
+            </div>
+
+            <div class="gray-line">
+                <div class="gray-star">&#9733;</div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="align-items-center justify-content-center row pt-3">
+                <div class="col-lg-4 col-md-6 mb-5 grid-picture">
+                    <img src="img/image1.jpg" class="img-fluid image-radius" style="cursor: pointer;" data-toggle="modal" data-target="#myModal">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-5 grid-picture">
+                    <img src="img/image2.jpg" class="img-fluid image-radius">
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5 grid-picture">
+                    <img src="img/image3.jpg" class="img-fluid image-radius">
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5 grid-picture">
+                    <img src="img/image4.jpg" class="img-fluid image-radius">
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5 grid-picture">
+                    <img src="img/image5.jpg" class="img-fluid image-radius">
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5 grid-picture">
+                    <img src="img/image6.jpg" class="img-fluid image-radius">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+
+    <section class="container-fluid green-background-color text-center text-light pt-5" id="about-section">
+        <div class="pt-3">
+            <h2>ABOUT</h2>
+        </div>
+
+        <div class="line">
+            <div class="star">&#9733;</div>
+        </div>
+
+        <div class="row text-start justify-content-center mx-4 mt-4 pb-4">
+            <div class="col-lg-3 col-md-4 col-12">
+                <p>Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge associated with front end development is that the tools and techniques used to create the front end of a website change constantly and so the developer needs to constantly be aware of how the field is developing.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-12">
+                <p>The objective of designing a site is to ensure that when the users open up the site they see the information in a format that is easy to read and relevant. This is further complicated by the fact that users now use a large variety of devices with varying screen sizes and resolutions thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in different browsers...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section>
+        <div class="container" id="contact">
+            <div class="text-secondary text-center pt-5">
+                <h1>CONTACT ME</h1>
+            </div>
+
+            <div class="gray-line pb-3">
+                <div class="gray-star">&#9733;</div>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="floatingInput" placeholder="Full name">
+                <label for="floatingInput">Full name</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="phone" class="form-control" id="floatingInput" placeholder="Phone number">
+                <label for="floatingInput">Phone number</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <textarea class="form-control text-area" placeholder="Message" id="floatingTextArea" style="height: 150px"></textarea>
+                <label for="floatingTextArea">Message</label>
+            </div>
+
+            <div class="pb-5">
+                <button class="btn form-button p-3 text-light bg-success">Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOVE-FOOTER SECTION -->
+
+    <section class="about-section">
+        <div class="container p-4 text-center">
+            <div class="row">
+                <div class="col-lg-4 col-12 text-light">
+                    <h4 class="pb-3">LOCATION</h4>
+                    <p>SMARTINIT Novi Sad <br> Serbia</p>
+                </div>
+
+                <div class="col-lg-4 col-12 pb-3 text-light">
+                    <h4 class="pb-3">AROUND THE WEB</h4>
+                    <i class="fa fa-facebook icon-border" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-border" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin icon-border" aria-hidden="true"></i>
+                    <i class="fa fa-globe icon-border" aria-hidden="true"></i>
+                </div>
+
+                <div class="col-lg-4 col-12 text-light">
+                    <h4 class="pb-3 pt-md-3">ABOUT SMARTINIT</h4>
+                    <p>PanonIT Code Academy -> <a href="#contact">Start Course</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer text-light text-center">
+            <div>
+                <p class="p-2 m-0">Copyright © Boro Savinovic 2023</p>      
+            </div>
+    </footer>
+
+    <!-- MODAL -->
+
+    <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 class="text-secondary text-center">C#</h4>
+                    <img src="img/image1.jpg">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</body>

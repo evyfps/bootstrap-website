@@ -1,0 +1,169 @@
+/* NAVBAR */
+
+.navbar-bg-color {
+    background-color: #6C757E;
+}
+
+.navbar-bg-color .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E)
+}
+
+/* SECTION COLOR AND HEIGHT */
+.green-background-color {
+    background-color: #477bb3;
+    min-height: 430px;
+}
+
+/* AVATAR IN FIRST SECTION */
+.avatar {
+    width: 200px;
+    height: auto;
+}
+
+/* STAR WITH THE LINE IN THE FIRST SECTION */
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+}
+
+.line::before,
+.line::after {
+    margin-top: 5px;
+    content: "";
+    flex-grow: 0.05; 
+    height: 2px; 
+    background-color: #fff;
+}
+
+/* PORTFOLIO SECTION */
+
+.gray-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-star {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #2C3E4F;
+}
+
+.gray-line::before,
+.gray-line::after {
+    margin-top: 5px;
+    content: "";
+    flex-grow: 0.05; 
+    height: 2px; 
+    background-color: #2C3E4F;
+}
+
+.image-radius {
+    border-radius: 10px;
+}
+
+.grid-picture:hover {
+    color:  rgba(0, 242, 255, 0.99);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* CONTACT ME */
+
+.form-button {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.text-area {
+    resize: none;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+    background-color: #2D3E50;
+}
+
+.icon-border {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 60px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1B252F;
+}
+
+/* PORTFOLIO PAGE */
+
+/* PORTFOLIO WHAT WE OFFER SECTION */
+
+.portfolio-icon {
+    background: #343a40;
+}
+
+.portfolio-first-section {
+    background-color: #477bb3;
+    min-height: 330px;
+}
+
+/* PORTFOLIO RECENT PROJECTS SECTION */
+
+.recent-projects {
+    padding-top: 4rem;
+}
+
+.recent-projects-text {
+    color: #1BBC9B;
+}
+
+.project-text {
+    color: white;
+    left: 100px;
+    bottom: 50px;
+}
+
+/* ZOOM / GREEN IMAGE EFFECT */
+
+.project-picture img {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.project-picture img:hover {
+    transform: scale(0.8);
+    transition: 0.3s; 
+    filter: grayscale(1);
+}
+
+.project-picture img:not(:hover) {
+    transform: scale(1);
+    filter: grayscale(0);
+}
+
+
+
+
+
+
